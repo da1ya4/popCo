@@ -529,7 +529,7 @@ function MovieSummary({ tmdd }) {
   const matchruntime = average(tmdd.map((tmdd) => tmdd.runtime));
   return (
     <div className="summary">
-      <h2> Movies You Watched</h2>
+      <h2> Movies You Watched!</h2>
       <p>
         <span>🎦</span>
         <span>{matchLength} Movies</span>
